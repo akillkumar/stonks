@@ -27,6 +27,8 @@ c.Hide_output = True
 c.Store_csv   = True
 c.Output      = "Nike_tweets_2017_20.csv"
 
+c.Min_likes = 2
+
 c.Custom["tweet"] = ["date", "time", "username", "tweet"]
 
 # scrape with this configuration
